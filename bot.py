@@ -5,7 +5,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, ContextTypes, filters
 
 # Load tokens from environment variables
-TELEGRAM_TOKEN = os.getenv("8162609784:AAG3gzfROSiRZevvbh6GNLjuK3xTV2hL3vg")
+TELEGRAM_TOKEN = os.getenv("8152583572:AAFuz-zZ4QJJ5hndxqGTBlPv2YibKWEcCe4")
 OPENAI_API_KEY = os.getenv("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")
 
 # Set up OpenAI
